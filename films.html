@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Film's review</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/films.css">
+    <link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon">
+    <script id="template-film" type="text/template">
+    <tr class="film">
+        <td><img src="<%= imgSrc1 %>"><p> <%= description1 %> <a href="https://www.instagram.com/refresh.view/?hl=ru"> продолжение </a></p></td>
+        <td><img src="<%= imgSrc2 %>"><p> <%= description2 %> <a href="https://www.instagram.com/refresh.view/?hl=ru"> продолжение </a></p></td>
+    </tr>
+</script>
+    <script src="./dist/bundle.js"></script>
+</head>
+<body>
+<table cellspacing="1">
+    <tr class="film">
+        <td><img src="/images/зеленая книга.jpg"><p>Путеводитель для чернокожих или история дружбы вне предрассудков <a href="https://www.instagram.com/refresh.view/?hl=ru">продолжение</a></p></td>
+        <td><img src="/images/секс.jpg"><p>Половое воспитание? К сожалению не на уроках, а только в сериале... <a href="https://www.instagram.com/refresh.view/?hl=ru">продолжение</a></p></td>
+    </tr>
+    <tr class="film">
+        <td><img src="/images/гордость.jpg"><p>Один из самых популярных романов о любви, побеждающей все преграды <a href="https://www.instagram.com/refresh.view/?hl=ru">продолжение</a></p> </td>
+        <td><img src="/images/малефисента.jpg"> <p>Диснеевская сказка. Новая глава. Новые герои. Новая борьба. <a href="https://www.instagram.com/refresh.view/?hl=ru">продолжение</a></p></td>
+    </tr>
+    <tr id="film"></tr>
+</table>
+</body>
+</html>
