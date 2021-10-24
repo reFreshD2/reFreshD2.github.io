@@ -28,7 +28,6 @@ function Create(colunms,rows) {
     document.getElementById('CountRows').remove();
     document.getElementById('but').remove();
     let table = document.createElement('table');
-    let isBlack = false
     for (let i = 1; i<=rows;i++){
         let row = document.createElement('tr');
         for (let j = 1; j<=colunms; j++){
@@ -37,10 +36,6 @@ function Create(colunms,rows) {
             btn.type = 'button';
             btn.classList.add('btn');
             btn.id = 'btn'+i+j;
-            if (isBlack) {
-                btn.classList.add('black')
-                isBlack = false
-            }
             btn.onclick = function (){Change(i,j,colunms,rows)};
             col.appendChild(btn);
             row.appendChild(col);
