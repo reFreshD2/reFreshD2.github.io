@@ -1,0 +1,45 @@
+html {
+    font-family: Snell Roundhand, cursive;
+    font-style: oblique
+}
+
+body {
+    background-image: url("https://constantinnautics.ru/wp-content/uploads/2020/12/de35d8529.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#main-form {
+    margin: 5% 25%;
+    background: rgba(255,255,255,0.5);
+    align-items: center;
+}
+
+button {
+    margin-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 45%;
+    padding: 15px 15px;
+    background-color: palevioletred;
+    color: white;
+    border: 2px solid #c25678
+}
+
+button:hover {
+    background-color: #fabbcb;
+    color: black;
+}
+
+.person {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 40%;
+    width: 250px;
+}
+
+.result {
+    margin: 1% auto;
+    width: 300px;
+}
